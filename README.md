@@ -2,6 +2,7 @@
 
 ## Project setup
 ```
+npm install --save yourPackagename
 yarn install
 ```
 
