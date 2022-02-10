@@ -1,14 +1,26 @@
 {
   "name": "vue-hello-world-simple",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "build-library": "vue-cli-service build --target lib --name vue-hello-world-simple ./src/install.js",
     "lint": "vue-cli-service lint"
   },
+  "repository": "https://github.com/95martirosyan/package",
+  "bugs": "https://github.com/95martirosyan/package/issues",
+  "main": ".dist/vue-hello-world-simple.common.js",
+  "files": [
+    "dist/*",
+    "src/*",
+    "public/*",
+    "*.json",
+    "*.js"
+  ],
   "dependencies": {
     "core-js": "^3.6.5",
+    "package": "^1.0.1",
     "vue": "^3.0.0"
   },
   "devDependencies": {
