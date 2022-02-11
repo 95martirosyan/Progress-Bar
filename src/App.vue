@@ -1,15 +1,17 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div style="height: 20px;width: 300px">
+    <Progress :percent="80" bgColor="white" color="green" showText=true textColor="black" textSize="small"/>
+  </div>
+
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Progress from './components/Progress.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Progress
   }
 }
 </script>
@@ -17,10 +19,5 @@ export default {
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
