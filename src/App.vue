@@ -1,17 +1,17 @@
 <template>
   <div style="height: 20px;width: 300px">
-    <Progress :percent="80" bgColor="white" color="green" showText=true textColor="black" textSize="small"/>
+    <co-progress :percent="80" bgColor="white" color="green" showText=true textColor="black" textSize="small"/>
   </div>
 
 </template>
 
 <script>
-import Progress from './components/Progress.vue'
+import coProgress from './components/coProgress.vue'
 
 export default {
   name: 'App',
   components: {
-    Progress
+    coProgress
   }
 }
 </script>
