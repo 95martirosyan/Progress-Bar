@@ -10,7 +10,7 @@
   },
   "repository": "https://github.com/95martirosyan/package",
   "bugs": "https://github.com/95martirosyan/package/issues",
-  "main": ".dist/vue-progress-bar.common.js",
+  "main": "dist/vue-progress-bar.common.js",
   "files": [
     "dist"
   ],
