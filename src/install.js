@@ -1,4 +1,4 @@
-import Progress from "./components/coProgress.vue";
+import Progress from "./components/CoProgress.vue";
 
 const ProgressBarSimple = {
     install(Vue) {

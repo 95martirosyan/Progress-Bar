@@ -6,12 +6,12 @@
 </template>
 
 <script>
-import coProgress from './components/coProgress.vue'
+import CoProgress from './components/CoProgress.vue'
 
 export default {
   name: 'App',
   components: {
-    coProgress
+    CoProgress
   }
 }
 </script>

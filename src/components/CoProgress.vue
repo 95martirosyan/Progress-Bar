@@ -7,7 +7,7 @@
 
 <script>
   export default {
-    name: 'coProgress',
+    name: 'CoProgress',
     data: function () {
       return {
 
