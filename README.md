@@ -1,8 +1,8 @@
-# vue-hello-world-simple
+# vue-progress-bar
 
 ## Project setup
 ```
-npm install --save package
+
 yarn install
 ```
 

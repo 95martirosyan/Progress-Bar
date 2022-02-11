@@ -7,7 +7,7 @@
 
 <script>
   export default {
-    name: 'HelloWorld',
+    name: 'Progress',
     data: function () {
       return {
 

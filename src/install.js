@@ -1,16 +1,16 @@
-import HelloWorld from "./components/Progress.vue";
+import Progress from "./components/Progress.vue";
 
-const HelloWorldSimple = {
+const ProgressBarSimple = {
     install(Vue) {
         // Let's register our component globally
         // https://vuejs.org/v2/guide/components-registration.html
-        Vue.component("hello-world", HelloWorld);
+        Vue.component("Progress", Progress);
     }
 };
 
 // Automatic installation if Vue has been added to the global scope.
 if (typeof window !== 'undefined' && window.Vue) {
-    window.Vue.use(HelloWorldSimple);
+    window.Vue.use(ProgressBarSimple);
 }
 
-export default HelloWorldSimple;
+export default ProgressBarSimple;
