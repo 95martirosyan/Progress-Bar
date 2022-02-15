@@ -4,7 +4,7 @@ const ProgressBarSimple = {
     install(Vue) {
         // Let's register our component globally
         // https://vuejs.org/v2/guide/components-registration.html
-        Vue.component("Progress", Progress);
+        Vue.component("cProgress", Progress);
     }
 };
 
