@@ -45,6 +45,8 @@
         default: 'larger',
       },
     },
+    mounted () {
+    },
     computed: {
       progressVal() {
         return {
