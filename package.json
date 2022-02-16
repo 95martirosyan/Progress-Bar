@@ -12,8 +12,7 @@
   "bugs": "https://github.com/95martirosyan/package/issues",
   "main": "dist/vue-progress-bar.common.js",
   "files": [
-    "dist/",
-    "src/"
+    "dist/"
   ],
   "dependencies": {
     "core-js": "^3.6.5",
