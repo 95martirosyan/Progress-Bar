@@ -45,8 +45,9 @@
         default: 'larger',
       },
     },
-    mounted () {
-    },
+    created: function () {},
+    watch: {},
+    mounted () {},
     computed: {
       progressVal() {
         return {
