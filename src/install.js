@@ -1,16 +1,16 @@
-import Progress from "./CoProgress.vue";
+import Progress from "./components/CoProgress.vue";
 
-const CoProgress = {
+const ProgressBarSimple = {
     install(Vue) {
         // Let's register our component globally
         // https://vuejs.org/v2/guide/components-registration.html
-        Vue.component("CoProgress", Progress);
+        Vue.component("Progress", Progress);
     }
 };
 
 // Automatic installation if Vue has been added to the global scope.
 if (typeof window !== 'undefined' && window.Vue) {
-    window.Vue.use(CoProgress);
+    window.Vue.use(ProgressBarSimple);
 }
 
-export default CoProgress;
+export default ProgressBarSimple;

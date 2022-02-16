@@ -45,9 +45,8 @@ export default {
       default: 'larger',
     },
   },
-  created: function () {},
-  watch: {},
-  mounted () {},
+  mounted () {
+  },
   computed: {
     progressVal() {
       return {

@@ -1,4 +1,4 @@
 import { createApp } from 'vue'
-import CoProgress from './CoProgress.vue'
+import App from './App.vue'
 
-createApp(CoProgress).mount('#coProgress')
+createApp(App).mount('#app')
