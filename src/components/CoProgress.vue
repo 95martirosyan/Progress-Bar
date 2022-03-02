@@ -45,8 +45,6 @@
         default: 'larger',
       },
     },
-    mounted () {
-    },
     computed: {
       progressVal() {
         return {
@@ -70,3 +68,37 @@
   }
 
 </script>
+
+<style>
+  body{
+    background: black;
+  }
+  .progress {
+    background: #fff;
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    display: flex;
+    height: inherit;
+    width: 100%;
+  }
+
+  .progress-value {
+    animation: load 3s normal forwards;
+    border-radius: 100px;
+    background: red;
+    height: 100%;
+    width: 0;
+  }
+  .text{
+    position: absolute;
+    height: fit-content;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+</style>

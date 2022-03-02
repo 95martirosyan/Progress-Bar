@@ -1,26 +1,23 @@
 {
   "name": "vue-cprogress-bar",
-  "version": "0.1.13",
+  "version": "0.1.1",
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "build-library": "vue-cli-service build --target lib --name vue-progress-bar ./src/install.js",
-    "lint": "vue-cli-service lint",
-    "dev1": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
-    "build1": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+    "lint": "vue-cli-service lint"
   },
   "repository": "https://github.com/95martirosyan/package",
   "bugs": "https://github.com/95martirosyan/package/issues",
-  "main": "dist/vue-progress-bar.common.js",
+  "main": ".dist/vue-progress-bar.common.js",
   "files": [
-    "dist/"
+    "dist/*"
   ],
   "dependencies": {
     "core-js": "^3.6.5",
     "package": "^1.0.1",
-    "vue": "^3.0.0",
-    "vue-sfc-rollup": "^4.1.1"
+    "vue": "^3.0.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
