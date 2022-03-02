@@ -16,6 +16,7 @@
   ],
   "dependencies": {
     "core-js": "^3.6.5",
+    "is-extendable": "^1.0.1",
     "package": "^1.0.1",
     "vue": "^3.0.0"
   },
